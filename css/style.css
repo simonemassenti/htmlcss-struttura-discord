@@ -96,4 +96,22 @@ aside{
     border: 1px dashed black;
 }
 
+.col-container {
+    background-color: #23272A;
+    display: flex;
+    justify-content: center;
+}
 
+.col-pink {
+    background-color: #F08080;
+    width: 200px;
+    height: 600px;
+    border: 1px dashed black;
+}
+
+.col {
+    background-color: #20B2AA;
+    width: 150px;
+    height: 600px;
+    border: 1px dashed black;
+}
