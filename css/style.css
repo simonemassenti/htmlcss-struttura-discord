@@ -4,15 +4,33 @@
     box-sizing: border-box;
 }
 
+/* ROOT */
+:root {
+    --bg-header: #ADD8E6;
+    --bg-head-box: #DAA520;
+    --bg-hero-box: #00008B;
+    --bg-hero: #EE82EE;
+    --bg-article: #1E90FF;
+    --bg-aside: #FFC0CB;
+    --bg-gray: #D3D3D3;
+    --bg-green-rect: #228B22;
+    --bg-col-container: #23272A;
+    --bg-col-pink: #F08080;
+    --bg-col: #20B2AA;
+    --bg-footer: #23272A;
+    --bg-footer-box: #7FFFD4;
+    --bg-button: #FFB6C1;
+}
+
 /* HEADER */
 header {
     height: 70px;
-    background-color: #ADD8E6;
+    background-color: var(--bg-header);
     padding: 25px 20%;
 }
 
 .head-box{
-    background-color: #DAA520;
+    background-color: var(--bg-head-box);
     display: flex;
     justify-content: center;
 }
@@ -50,66 +68,68 @@ a {
 /* HERO */
 .hero-box {
     width: 100%;
-    background-color: #00008B;
+    background-color: var(--bg-hero-box);
     padding: 30px 0;
 }
 
 .hero{
     height: 250px;
     width: 40%;
-    background-color: #EE82EE;
+    background-color: var(--bg-hero);
     margin: 0 auto;
 }
 
+/* MAIN */
 .article-box {
     display: flex;
     padding: 30px 20%;
 }
 
 article {
-    background-color: #1E90FF;
+    background-color: var(--bg-article);
     height: 300px;
     width: 60%;
 }
 
 aside{
-    background-color: #FFC0CB;
+    background-color: var(--bg-aside);
     height: 300px;
     width: 40%;
 }
 
 .bg-gray {
-    background-color: #D3D3D3;
+    background-color: var(--bg-gray);
 }
 
 .green-rect {
     height: 600px;
     width: 800px;
-    background-color: #228B22;
+    background-color: var(--bg-green-rect);
 }
 
 .col-container {
-    background-color: #23272A;
+    background-color: var(--bg-col-container);
     display: flex;
     justify-content: center;
 }
 
 .col-pink {
-    background-color: #F08080;
+    background-color: var(--bg-col-pink);
     width: 200px;
     height: 600px;
 }
 
 .col {
-    background-color: #20B2AA;
+    background-color: var(--bg-col);
     width: 150px;
     height: 600px;
 }
 
+/* FOOTER */
 footer {
     margin: 1px 0;
     height: 70px;
-    background-color: #23272A;
+    background-color: var(--bg-footer);
     padding: 0 20%;
     display: flex;
     align-items: flex-end;
@@ -119,7 +139,7 @@ footer {
 .footer-box {
     height: 90%;
     width: 100%;
-    background-color: #7FFFD4;
+    background-color: var(--bg-footer-box);
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -127,7 +147,7 @@ footer {
 }
 
 .button {
-    background-color: #FFB6C1;
+    background-color: var(--bg-button);
 }
 
 /* styles */
