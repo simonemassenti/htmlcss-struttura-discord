@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER */
+
+header {
+    height: 70px;
+    background-color: #ADD8E6;
+    padding: 25px 20%;
+}
+
+.head-box{
+    background-color: #DAA520;
+    display: flex;
+    justify-content: center;
+}
+
+.logo {
+    border: 1px dashed black;
+    width: 20%;
+    padding: .1rem .5rem;
+}
+
+nav {
+    border: 1px dashed black;
+    width: 90%;
+}
+
+.login {
+    border: 1px dashed black;
+    width: 20%;
+    text-align: right;
+    padding: .1rem .5rem;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+}
+
+li {
+    padding: .1rem .5rem;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+/* HERO */
+.hero-box {
+    width: 100%;
+    background-color: #00008B;
+    padding: 30px 0;
+}
+
+.hero{
+    height: 250px;
+    width: 40%;
+    background-color: #EE82EE;
+    margin: 0 auto;
+    border: 1px dashed black;
+}
