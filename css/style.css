@@ -88,3 +88,12 @@ aside{
 .bg-gray {
     background-color: #D3D3D3;
 }
+
+.green-rect {
+    height: 600px;
+    width: 800px;
+    background-color: #228B22;
+    border: 1px dashed black;
+}
+
+
