@@ -5,7 +5,6 @@
 }
 
 /* HEADER */
-
 header {
     height: 70px;
     background-color: #ADD8E6;
@@ -19,18 +18,15 @@ header {
 }
 
 .logo {
-    border: 1px dashed black;
     width: 20%;
     padding: .1rem .5rem;
 }
 
 nav {
-    border: 1px dashed black;
-    width: 90%;
+    width: 100%;
 }
 
 .login {
-    border: 1px dashed black;
     width: 20%;
     text-align: right;
     padding: .1rem .5rem;
@@ -63,7 +59,6 @@ a {
     width: 40%;
     background-color: #EE82EE;
     margin: 0 auto;
-    border: 1px dashed black;
 }
 
 .article-box {
@@ -73,14 +68,12 @@ a {
 
 article {
     background-color: #1E90FF;
-    border: 1px dashed black;
     height: 300px;
     width: 60%;
 }
 
 aside{
     background-color: #FFC0CB;
-    border: 1px dashed black;
     height: 300px;
     width: 40%;
 }
@@ -93,7 +86,6 @@ aside{
     height: 600px;
     width: 800px;
     background-color: #228B22;
-    border: 1px dashed black;
 }
 
 .col-container {
@@ -106,14 +98,12 @@ aside{
     background-color: #F08080;
     width: 200px;
     height: 600px;
-    border: 1px dashed black;
 }
 
 .col {
     background-color: #20B2AA;
     width: 150px;
     height: 600px;
-    border: 1px dashed black;
 }
 
 footer {
@@ -138,5 +128,10 @@ footer {
 
 .button {
     background-color: #FFB6C1;
+}
+
+/* styles */
+
+.border {
     border: 1px dashed black;
 }
